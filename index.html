@@ -3,18 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rclone Unraid — copia personale di Google Drive</title>
+  <title>Rclone Unraid e n8n-Unraid — automazioni personali</title>
   <style>body{font:18px/1.6 system-ui,sans-serif;max-width:760px;margin:64px auto;padding:0 24px;color:#243042;background:#f7f9fc}a{color:#135eb2}h1{line-height:1.2}</style>
 </head>
 <body>
   <main>
-    <h1>Rclone Unraid</h1>
-    <p>Configurazione personale di Rclone per conservare una copia del proprio Google Drive su un server Unraid.</p>
-    <p>L'accesso a Google Drive è in sola lettura: serve a elencare e scaricare file e cartelle. Questa configurazione non carica, modifica o cancella file su Google Drive.</p>
-    <p>La copia viene conservata sul server personale del proprietario. Questo sito presenta la configurazione e non permette ai visitatori di accedere al Drive o al server.</p>
-    <p>Non è un servizio pubblico e non è un prodotto ufficiale di Google, Unraid o Rclone.</p>
+    <h1>Rclone Unraid e n8n-Unraid</h1>
+    <p>Configurazioni personali per copiare Google Drive su un server Unraid e registrare scontrini tramite n8n.</p>
+    <h2>Copia con Rclone</h2>
+    <p>Rclone accede a Google Drive in sola lettura per elencare e scaricare file e cartelle sul server personale. Questa configurazione Rclone non carica, modifica o cancella file su Drive.</p>
+    <h2>Registro scontrini con n8n</h2>
+    <p>n8n-Unraid riceve le foto degli scontrini tramite un bot Telegram, le invia al servizio di intelligenza artificiale configurato per estrarne i dati, salva le foto su Google Drive e registra i dati e il riferimento alla foto in Google Sheets. Il flusso può leggere e ordinare il registro e inviare un messaggio di esito su Telegram.</p>
+    <p>L'accesso a Google avviene con l'account autorizzato dal proprietario. Le automazioni sono per uso personale. Questo sito le descrive e non permette ai visitatori di accedere ai dati, al bot o al server.</p>
+    <p>Non è un prodotto ufficiale di Google, Unraid, Rclone o Telegram.</p>
     <p><a href="privacy.html">Informativa sulla privacy</a></p>
-    <p>Contatto del proprietario: <a href="mailto:oribarbi75@gmail.com">oribarbi75@gmail.com</a></p>
+    <p>Contatto: <a href="mailto:oribarbi75@gmail.com">oribarbi75@gmail.com</a></p>
   </main>
 </body>
 </html>
